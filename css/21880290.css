@@ -84,14 +84,52 @@ margin:0 0.25 rem;
 
 }
 
-.footer{
-    height: 80px;
-    background-color: bisque;
-}
+
 .readmore{
     color: var(--web1-blue);
     margin-top: -4px !important;
 }
 #aboutus{
     background-color: var(--web1-pink);
+}
+#formSugnUp{
+    border-style:dashed !important ;
+    border-color: rgba(0,0,0,0.5) !important;
+}
+.font-family{
+    font-family: 'Changa one',cursive;
+}
+.Dec-25{
+background-color: var(--web1-green);
+border-radius: 0.5rem;
+}
+.duis-autem{
+    font-weight: 200;
+    color: gray;
+}
+
+footer .nav-link{
+    color: white;
+}
+footer .nav-link.active{
+    color: var(--web1-pink);
+}
+.footer{
+    height: 80px;
+    background: url('../images/bg-footer.gif');
+}
+/*Modal Login*/
+#formLogin button[type='submit'] {
+background-color: var(--web1-blue);
+color: white;
+}
+/*testimonials*/
+#testimonials{
+    background-color: var(--web1-pink);
+}
+
+#testimonials .col-4{
+background: url('../images/quot.png') left top no-repeat;
+padding:0 3rem;
+    
 }
